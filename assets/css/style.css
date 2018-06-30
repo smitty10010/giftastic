@@ -1,0 +1,10 @@
+#search-col {
+    border-right: 1px solid black;
+}
+
+@media screen and (max-width: 640px) {
+    #search-col {
+        border-right: none;
+        border-bottom: 1px solid black;
+    }
+}
