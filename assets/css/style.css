@@ -2,9 +2,33 @@
     border-right: 1px solid black;
 }
 
+img {
+    height: 200px;
+    width: 200px;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.card {
+    float: left;
+    margin-right: 1%;
+    margin-top: 2%;
+}
+
+button {
+    margin-right: 1%;
+}
+
 @media screen and (max-width: 640px) {
     #search-col {
         border-right: none;
         border-bottom: 1px solid black;
+    }
+    .card {
+        float: none;
+    }
+    button {
+        margin-top: 1%;
+        margin-bottom: 1%;
     }
 }
